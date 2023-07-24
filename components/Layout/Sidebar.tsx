@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation"
 import { BiSearch } from "react-icons/bi"
 import { HiHome } from "react-icons/hi"
 
+import Library from "../Library"
 import Box from "./Box"
-import Library from "./Library"
 import SidebarItem from "./SidebarItem"
 
 interface SidebarProps {
